@@ -1,0 +1,219 @@
+<fe:Facturae xmlns:fe="http://www.facturae.es/Facturae/2009/v3.2/Facturae" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.facturae.es/Facturae/2009/v3.2/Facturae">
+  <FileHeader>
+    <SchemaVersion>3.2</SchemaVersion>
+    <Modality>I</Modality>
+    <InvoiceIssuerType>EM</InvoiceIssuerType>
+    <Batch>
+      <BatchIdentifier>23568498</BatchIdentifier>
+      <InvoicesCount>1</InvoicesCount>
+      <TotalInvoicesAmount>
+        <TotalAmount>107.64</TotalAmount>
+      </TotalInvoicesAmount>
+      <TotalOutstandingAmount>
+        <TotalAmount>107.64</TotalAmount>
+      </TotalOutstandingAmount>
+      <TotalExecutableAmount>
+        <TotalAmount>107.64</TotalAmount>
+      </TotalExecutableAmount>
+      <InvoiceCurrencyCode>EUR</InvoiceCurrencyCode>
+    </Batch>
+  </FileHeader>
+  <Parties>
+    <SellerParty>
+      <TaxIdentification>
+        <PersonTypeCode>J</PersonTypeCode>
+        <ResidenceTypeCode>R</ResidenceTypeCode>
+        <TaxIdentificationNumber>B45254632</TaxIdentificationNumber>
+      </TaxIdentification>
+      <LegalEntity>
+        <CorporateName>Juan</CorporateName>
+        <RegistrationData/>
+        <AddressInSpain>
+          <Address>
+          Calle de la Rosa 14
+          </Address>
+          <PostCode>39112</PostCode>
+          <Town>Santa Cruz</Town>
+          <Province>Santa Cruz </Province>
+          <CountryCode>ESP</CountryCode>
+        </AddressInSpain>
+        <ContactDetails>
+          <Telephone>683225512</Telephone>
+          <ElectronicMail>juanne@msn.com</ElectronicMail>
+          <ContactPersons>Juan</ContactPersons>
+        </ContactDetails>
+      </LegalEntity>
+    </SellerParty>
+    <BuyerParty>
+      <TaxIdentification>
+        <PersonTypeCode>J</PersonTypeCode>
+        <ResidenceTypeCode>R</ResidenceTypeCode>
+        <TaxIdentificationNumber>D54225421</TaxIdentificationNumber>
+      </TaxIdentification>
+	  <AdministrativeCentres>
+		<AdministrativeCentre>
+			<CentreCode>55442284</CentreCode>
+			<RoleTypeCode>01</RoleTypeCode>
+			<Name>Centro1</Name>
+			<AddressInSpain>
+				<Address>C/ </Address>
+				<PostCode>38002</PostCode>
+				<Town>Santa Cruz</Town>
+				<Province>Santa Cruz </Province>
+				<CountryCode>ESP</CountryCode>
+			</AddressInSpain>
+			<CentreDescription>Centro1</CentreDescription>
+		</AdministrativeCentre>
+		<AdministrativeCentre>
+			<CentreCode>25458595</CentreCode>
+			<RoleTypeCode>02</RoleTypeCode>
+			<Name>Centro1</Name>
+			<AddressInSpain>
+				<Address>C/ </Address>
+				<PostCode>37025</PostCode>
+				<Town>Santa Cruz</Town>
+				<Province>Santa Cruz</Province>
+				<CountryCode>ESP</CountryCode>
+			</AddressInSpain>
+			<CentreDescription>Centro1</CentreDescription>
+		</AdministrativeCentre>
+		<AdministrativeCentre>
+			<CentreCode>48925645</CentreCode>
+			<RoleTypeCode>03</RoleTypeCode>
+			<Name>Centro1</Name>
+			<AddressInSpain>
+				<Address>C/ </Address>
+				<PostCode>38012</PostCode>
+				<Town>Santa Cruz</Town>
+				<Province>Santa Cruz</Province>
+				<CountryCode>ESP</CountryCode>
+			</AddressInSpain>
+			<CentreDescription>Centro1</CentreDescription>
+			</AdministrativeCentre>
+		</AdministrativeCentres>
+      <LegalEntity>
+        <CorporateName>Company1</CorporateName>
+        <RegistrationData/>
+        <AddressInSpain>
+          <Address>
+          Calle Colon 17
+          </Address>
+          <PostCode>37555</PostCode>
+          <Town>Puerto Cruz</Town>
+          <Province>Santa Cruz</Province>
+          <CountryCode>ESP</CountryCode>
+        </AddressInSpain>
+        <ContactDetails>
+          <ContactPersons>Juan</ContactPersons>
+        </ContactDetails>
+      </LegalEntity>
+    </BuyerParty>
+  </Parties>
+  <Invoices>
+    <Invoice>
+      <InvoiceHeader>
+        <InvoiceNumber>45654895</InvoiceNumber>
+        <InvoiceSeriesCode/>
+        <InvoiceDocumentType>FC</InvoiceDocumentType>
+        <InvoiceClass>OO</InvoiceClass>
+      </InvoiceHeader>
+      <InvoiceIssueData>
+        <IssueDate>2018-04-20</IssueDate>
+		<OperationDate>2018-05-05</OperationDate>
+        <InvoiceCurrencyCode>EUR</InvoiceCurrencyCode>
+        <TaxCurrencyCode>EUR</TaxCurrencyCode>
+        <LanguageName>es</LanguageName>
+      </InvoiceIssueData>
+      <TaxesOutputs>
+        <Tax>
+          <TaxTypeCode>03</TaxTypeCode>
+          <TaxRate>7.00</TaxRate>
+          <TaxableBase>
+            <TotalAmount>100.60</TotalAmount>
+          </TaxableBase>
+          <TaxAmount>
+            <TotalAmount>7.04</TotalAmount>
+          </TaxAmount>
+          <EquivalenceSurchargeAmount>
+            <TotalAmount>0.00</TotalAmount>
+          </EquivalenceSurchargeAmount>
+        </Tax>
+      </TaxesOutputs>
+      <InvoiceTotals>
+        <TotalGrossAmount>100.60</TotalGrossAmount>
+        <TotalGrossAmountBeforeTaxes>100.60</TotalGrossAmountBeforeTaxes>
+        <TotalTaxOutputs>7.04</TotalTaxOutputs>
+        <TotalTaxesWithheld>0.00</TotalTaxesWithheld>
+        <InvoiceTotal>107.64</InvoiceTotal>
+        <TotalOutstandingAmount>107.64</TotalOutstandingAmount>
+        <TotalExecutableAmount>107.64</TotalExecutableAmount>
+      </InvoiceTotals>
+      <Items>
+      <InvoiceLine>
+          <IssuerTransactionReference/>
+          <ItemDescription> Libros </ItemDescription>
+          <Quantity>1</Quantity>
+          <UnitOfMeasure>01</UnitOfMeasure>
+          <UnitPriceWithoutTax>44.100000</UnitPriceWithoutTax>
+          <TotalCost>44.100000</TotalCost>
+          <GrossAmount>44.100000</GrossAmount>
+          <TaxesOutputs>
+            <Tax>
+              <TaxTypeCode>03</TaxTypeCode>
+              <TaxRate>7.00</TaxRate>
+              <TaxableBase>
+                <TotalAmount>44.10</TotalAmount>
+              </TaxableBase>
+              <TaxAmount>
+                <TotalAmount>3.08</TotalAmount>
+              </TaxAmount>
+              <EquivalenceSurchargeAmount>
+                <TotalAmount>0.00</TotalAmount>
+              </EquivalenceSurchargeAmount>
+            </Tax>
+          </TaxesOutputs>
+          <AdditionalLineItemInformation/>
+        </InvoiceLine>
+        <InvoiceLine>
+          <IssuerTransactionReference/>
+          <ItemDescription> Sillas </ItemDescription>
+          <Quantity>1</Quantity>
+          <UnitOfMeasure>01</UnitOfMeasure>
+          <UnitPriceWithoutTax>56.500000</UnitPriceWithoutTax>
+          <TotalCost>56.500000</TotalCost>
+          <GrossAmount>56.500000</GrossAmount>
+          <TaxesOutputs>
+            <Tax>
+              <TaxTypeCode>03</TaxTypeCode>
+              <TaxRate>7.00</TaxRate>
+              <TaxableBase>
+                <TotalAmount>56.50</TotalAmount>
+              </TaxableBase>
+              <TaxAmount>
+                <TotalAmount>3.95</TotalAmount>
+              </TaxAmount>
+              <EquivalenceSurchargeAmount>
+                <TotalAmount>0.00</TotalAmount>
+              </EquivalenceSurchargeAmount>
+            </Tax>
+          </TaxesOutputs>
+          <AdditionalLineItemInformation/>
+        </InvoiceLine>
+
+      </Items>
+      <PaymentDetails>
+        <Installment>
+          <InstallmentDueDate>2018-04-20</InstallmentDueDate>
+          <InstallmentAmount>107.64</InstallmentAmount>
+          <PaymentMeans>04</PaymentMeans>
+          <AccountToBeCredited>
+            <IBAN>ES5525887525652489621327</IBAN>
+          </AccountToBeCredited>
+        </Installment>
+      </PaymentDetails>
+      <AdditionalData>
+        <InvoiceAdditionalInformation>Facturae generado por los alumnos de la ULL</InvoiceAdditionalInformation>
+      </AdditionalData>
+    </Invoice>
+  </Invoices>
+</fe:Facturae>
